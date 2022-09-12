@@ -188,6 +188,8 @@
 
 /* END OF HEADER */
 
+
+/* BODY */
 .background {
     background-image: linear-gradient(#394969 0%,
             #394969 25.33%,
@@ -209,48 +211,40 @@ h1 {
     grid-auto-rows: mimax(500px, auto); 
     display: grid;
     width: 100%;
-    /* border: 3px solid red; */
     row-gap: 20px;
     column-gap: 20px;
 }
 
 .img1 {
     grid-row: 1/2 ;
-    /* border: 3px solid red; */
     padding-right: 0px;
 }
 
 .img2 {
-    /* border: 3px solid red; */
     grid-row: 1/2;
 }
 
 .img3 {
-    /* border: 3px solid red; */
     grid-row: 2/4;
 }
 
 .img4 {
-    /* border: 3px solid red; */
     grid-row: 2/3;
 }
 
 .img5 {
-    /* border: 3px solid red; */
     grid-row: 5/6;
 }
 
 .img6 {
-    /* border: 3px solid red; */
     grid-row: 3/6;
 }
 
 .img7 {
-    /* border: 3px solid red; */
     grid-row: 6/8;
 }
 
 .img8 {
-    /* border: 3px solid red; */
     grid-row: 6/7;
 }
+/* END OF BODY */
