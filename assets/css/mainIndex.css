@@ -3,7 +3,9 @@
     background-color: #12172b;
     height: 120px;
     color: var(--white-color);
-    border-bottom: 1.5px outset rgb(44, 42, 42) ;
+    border-bottom: 1.5px outset rgb(44, 42, 42);
+    /* position: fixed;
+    top: 0; */
 }
 
 /* Logo nhóm bằng Text Neon */
@@ -117,6 +119,7 @@
     border-radius: 5px;
 
 }
+
 .navbar__menu ul li:hover>ul {
     display: block;
     opacity: 1;
@@ -179,10 +182,11 @@
 
 /* BODY */
 
+
+/* RUNNING TEXT */
 #background1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.3)),
-    url('/assets/img/index/background1.jpg') center/cover 
-    no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+        url('/assets/img/index/background1.jpg') center/cover no-repeat fixed;
     justify-content: flex-start;
     align-items: center;
     width: 100%;
@@ -224,4 +228,22 @@
             0 0 70px #bc13fe,
             0 0 80px #bc13fe;
     }
+}
+
+/* END OF RUNNING TEXT */
+
+
+.background2 {
+    background-image: linear-gradient(#394969 0%,
+            #394969 25.33%,
+            #13172C 93.76%);
+    background-size: cover;
+    height: 500vh;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.walkingboys__img {
+    width: 100%;
+    height: auto;
 }

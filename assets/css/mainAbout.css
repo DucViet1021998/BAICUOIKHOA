@@ -211,12 +211,13 @@
 
 .pic1 {
     display: inline-block;
-    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 5px 8px 0px rgba(0, 0, 0, 0.2);
     max-width: 45%;
     height: auto;
     z-index: 1;
     position: absolute;
     left: 120px;
+    border: 5px solid red;
     padding: 0;
 }
 
