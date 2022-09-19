@@ -3,7 +3,7 @@
     background-color: #12172b;
     height: 120px;
     color: var(--white-color);
-    border-bottom: 1.5px outset rgb(44, 42, 42);
+    border-bottom: 1.5px outset rgb(44, 42, 42) ;
 }
 
 /* Logo nhóm bằng Text Neon */
@@ -29,10 +29,10 @@
     line-height: 3.5rem;
     box-shadow: 0 0 .2rem var(--white-color),
         0 0 .2rem #fff,
-        0 0 2rem #bc13fe,
-        0 0 0.8rem #bc13fe,
-        0 0 2.8rem #bc13fe,
-        inset 0 0 1.3rem #bc13fe;
+        0 0 2rem #bb3f7d,
+        0 0 0.8rem #bb3f7d,
+        0 0 2.8rem #ee56a2,
+        inset 0 0 1.3rem #bb3f7d;
     margin-left: 3rem;
     cursor: pointer;
 }
@@ -43,11 +43,11 @@
             0 0 4px #fff,
             0 0 11px #fff,
             0 0 19px #fff,
-            0 0 40px #bc13fe,
-            0 0 80px #bc13fe,
-            0 0 90px #bc13fe,
-            0 0 100px #bc13fe,
-            0 0 150px #bc13fe;
+            0 0 40px #ee56a2,
+            0 0 80px #ee56a2,
+            0 0 90px #ee56a2,
+            0 0 100px #ee56a2,
+            0 0 150px #ee56a2;
 
     }
 
@@ -57,11 +57,11 @@
             0 0 2px #fff,
             0 0 4px #fff,
             0 0 6px #fff,
-            0 0 10px #bc13fe,
-            0 0 45px #bc13fe,
-            0 0 55px #bc13fe,
-            0 0 70px #bc13fe,
-            0 0 80px #bc13fe;
+            0 0 10px #ee56a2,
+            0 0 45px #ee56a2,
+            0 0 55px #ee56a2,
+            0 0 70px #ee56a2,
+            0 0 80px #ee56a2;
     }
 }
 
@@ -90,14 +90,14 @@
     padding: 0 15px;
     color: var(--white-color);
     line-height: 6rem;
-    font-size: 2rem
+    font-size: 3rem
 }
 
 .navbar__menu>ul li a:hover {
-    box-shadow: 0 0 5px #bc13fe,
-        0 0 5px #bc13fe;
+    box-shadow: 0 0 5px #ee56a2,
+        0 0 5px #ee56a2;
     border-radius: 5px;
-    color: #e39dff;
+    color: #ee56a2;
 }
 
 #iconfb:hover,
@@ -115,8 +115,8 @@
     transition: top .2s;
     padding-left: 0px;
     border-radius: 5px;
-}
 
+}
 .navbar__menu ul li:hover>ul {
     display: block;
     opacity: 1;
@@ -125,14 +125,14 @@
 }
 
 .navbar__menu ul ul li {
-    width: 120px;
+    width: 190px;
     float: none;
     display: list-item;
     position: relative;
     z-index: 1;
     margin: 0px;
     padding-left: 0px;
-    border-bottom: #d400ff;
+    border-bottom: #ee56a2;
 }
 
 /* Đổi màu icon thành Neon */
@@ -144,10 +144,10 @@
         0 0 .5rem #fff,
         0 0 1rem #fff,
         0 0 1.5rem #fff,
-        0 0 4rem #d400ff,
-        0 0 5.5rem #d400ff,
-        0 0 6rem #d400ff,
-        inset 0 0 9.5rem #d400ff,
+        0 0 4rem #ee56a2,
+        0 0 5.5rem #ee56a2,
+        0 0 6rem #ee56a2,
+        inset 0 0 9.5rem #ee56a2,
 }
 
 @keyframes changecolor {
@@ -156,11 +156,11 @@
             0 0 2px #fff,
             0 0 3px #fff,
             0 0 6px #fff,
-            0 0 10px #bc13fe,
-            0 0 40px #bc13fe,
-            0 0 40px #bc13fe,
-            0 0 50px #bc13fe,
-            0 0 60px #bc13fe;
+            0 0 10px #ee56a2,
+            0 0 40px #ee56a2,
+            0 0 40px #ee56a2,
+            0 0 50px #ee56a2,
+            0 0 60px #ee56a2;
 
     }
 
@@ -169,21 +169,20 @@
             0 0 1px #fff,
             0 0 2px #fff,
             0 0 3px #fff,
-            0 0 5px #bc13fe,
-            0 0 25px #bc13fe,
-            0 0 35px #bc13fe,
-            0 0 40px #bc13fe,
-            0 0 50px #bc13fe;
+            0 0 5px #ee56a2,
+            0 0 25px #ee56a2,
+            0 0 35px #ee56a2,
+            0 0 40px #ee56a2,
+            0 0 50px #ee56a2;
     }
 }
 
 /* BODY */
 
-
-/* RUNNING TEXT */
 #background1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-        url('/assets/img/index/background1.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.3)),
+    url('/assets/img/index/background1.jpg') center/cover 
+    no-repeat fixed;
     justify-content: flex-start;
     align-items: center;
     width: 100%;
@@ -205,11 +204,11 @@
             0 0 4px #fff,
             0 0 11px #fff,
             0 0 19px #fff,
-            0 0 40px #bc13fe,
-            0 0 80px #bc13fe,
-            0 0 90px #bc13fe,
-            0 0 100px #bc13fe,
-            0 0 150px #bc13fe;
+            0 0 40px #ee56a2,
+            0 0 80px #ee56a2,
+            0 0 90px #ee56a2,
+            0 0 100px #ee56a2,
+            0 0 150px #ee56a2;
 
     }
 
@@ -219,40 +218,10 @@
             0 0 2px #fff,
             0 0 4px #fff,
             0 0 6px #fff,
-            0 0 10px #bc13fe,
-            0 0 45px #bc13fe,
-            0 0 55px #bc13fe,
-            0 0 70px #bc13fe,
-            0 0 80px #bc13fe;
+            0 0 10px #ee56a2,
+            0 0 45px #ee56a2,
+            0 0 55px #ee56a2,
+            0 0 70px #ee56a2,
+            0 0 80px #ee56a2;
     }
-}
-
-/* END OF RUNNING TEXT */
-
-
-.background2 {
-    background-image: linear-gradient(#394969 0%,
-            #394969 25.33%,
-            #13172C 93.76%);
-    background-size: cover;
-    height: 500vh;
-    width: 100%;
-    padding-top: 2rem;
-}
-.background2 p {
-    color: var(--white-color);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-    font-size: 2.5rem;
-    line-height: 3rem;
-    text-align: center;
-    
-}
-.walkingboys__img { 
-    width: 100%;
-    height: 700px;
-    object-position: 50% 60%;
-    object-fit: cover;
-    /* border: 5px solid red; */
-    /* clip: rect(100px, 0px, 0px, 100px);
-    position: absolute; */
 }

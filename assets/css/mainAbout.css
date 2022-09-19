@@ -217,7 +217,7 @@
     z-index: 1;
     position: absolute;
     left: 120px;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     padding: 0;
 }
 
