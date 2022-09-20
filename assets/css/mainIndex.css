@@ -235,24 +235,121 @@
             #394969 25.33%,
             #13172C 93.76%);
     background-size: cover;
-    height: 500vh;
+    height: 900vh;
     width: 100%;
     padding-top: 2rem;
 }
+
 .background2 p {
     color: var(--white-color);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     font-size: 2.5rem;
     line-height: 3rem;
     text-align: center;
-    
+
 }
-.walkingboys__img { 
+
+.walkingboys__img {
     width: 100%;
     height: 700px;
     object-position: 50% 60%;
     object-fit: cover;
-    /* border: 5px solid red; */
-    /* clip: rect(100px, 0px, 0px, 100px);
-    position: absolute; */
+}
+
+.gridIndex {
+    width: 1400px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.gridIdex__container {
+    grid-template-columns: repeat(12, auto);
+    grid-auto-rows: mimax(auto, auto);
+    display: grid;
+    width: 100%;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.img1 {
+    grid-column: 1/9;
+    grid-row: 1/9;
+}
+
+.img2 {
+    grid-column: 9/12;
+    grid-row: 1/8;
+}
+
+.img3 {
+    grid-column: 1/9;
+    grid-row: 9/18;
+}
+
+.img4 {
+    grid-column: 9/12; 
+    grid-row: 8/25;
+}
+
+.img5 {
+    grid-column: 1/7;
+    grid-row: 18/35;
+}
+
+.img6 {
+    grid-column: 7/9;
+    grid-row: 18/27;
+}
+
+.img7 {
+    grid-column: 9/12;
+    grid-row: 25/38;
+}
+
+.img8 {
+    grid-column: 7/9;
+    grid-row: 27/32;
+    color: #fff;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right bottom, #6a5af9, #f62682);
+}
+
+.img9 {
+    grid-column: 1/7;
+    grid-row: 35/48;
+}
+.img10{
+    grid-column: 7/9;
+    grid-row: 32/38;
+}
+.img12 {
+    grid-column: 1/7;
+    grid-row: 48/61;
+}
+.img13{
+    grid-column: 7/10;
+    grid-row: 38/54;
+}
+.img14{
+    grid-column: 10/12;
+    grid-row: 38/44;
+}
+.img15{
+    grid-column: 10/12;
+    grid-row: 44/54;
+}
+.img16 {
+    grid-column: 1/7;
+    grid-row: 61/76;
+}
+.img17{
+    grid-column: 7/12;
+    grid-row: 54/68;
+}
+.img11 {
+    grid-column: 7/12;
+    grid-row: 68/76;
 }
