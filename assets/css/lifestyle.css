@@ -64,6 +64,16 @@
             0 0 80px #bc13fe;
     }
 }
+/* ACTIVE PAGE */
+#active {
+    box-shadow: 0 0 5px #bc13fe,
+        0 0 5px #bc13fe;
+    border-radius: 5px;
+    color: #e39dff;
+    padding: 22px 10px 25px 10px;
+    text-align: center;
+    width: 14rem;
+}
 
 /* Dropmenu-navbar */
 .navbar__menu {
@@ -108,11 +118,6 @@
     color: #e39dff;
 }
 
-#iconfb:hover,
-#iconhome:hover,
-#iconinsta:hover {
-    box-shadow: none;
-}
 
 .navbar__menu ul ul {
     position: absolute;
@@ -145,6 +150,11 @@
     border-bottom: #d400ff;
 }
 
+#iconfb:hover,
+#iconhome:hover,
+#iconinsta:hover {
+    box-shadow: none;
+}
 /* Đổi màu icon thành Neon */
 #iconfb,
 #iconhome,
@@ -156,16 +166,16 @@
 @keyframes changecolor {
     100% {
         text-shadow:
-            0 0 2px #fff,
-            0 0 3px #fff,
-            0 0 6px #fff,
-            0 0 10px #bc13fe,
+        0 0 2px #fff,
+        0 0 3px #fff,
+        0 0 6px #fff,
+        0 0 10px #bc13fe,
             0 0 40px #bc13fe,
             0 0 40px #bc13fe,
             0 0 50px #bc13fe,
             0 0 60px #bc13fe;
-
-    }
+            
+        }
 
     0% {
         text-shadow:

@@ -255,15 +255,10 @@
     box-shadow: inset 0 0 .4em 0 #ee56a2, 0 0 .6em 0 #ee56a2;
 }
 
-
-.arrow:focus {
-  outline: 0;
-}
-
 .left-arrow {
-  left: calc(15vw - 65px);
+  left: calc(15vw - 75px);
 }
 
 .right-arrow {
-  right: calc(15vw - 65px);
+  right: calc(15vw - 75px);
 }
