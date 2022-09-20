@@ -64,6 +64,16 @@
             0 0 80px #bc13fe;
     }
 }
+/* ACTIVE PAGE */
+#active {
+    box-shadow: 0 0 5px #bc13fe,
+        0 0 5px #bc13fe;
+    border-radius: 5px;
+    color: #e39dff;
+    padding: 22px 10px 25px 10px;
+    text-align: center;
+    width: 16rem;
+}
 
 /* Dropmenu-navbar */
 .navbar__menu {

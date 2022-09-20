@@ -69,6 +69,16 @@
           0 0 80px #04d9ff;
   }
 }
+/* ACTIVE PAGE */
+#active {
+  box-shadow: 0 0 5px #04d9ff,
+      0 0 5px #04d9ff;
+  border-radius: 5px;
+  color: rgb(174, 229, 255);
+  padding: 22px 10px 25px 10px;
+  text-align: center;
+  width: 13rem;
+}
 
 /* Dropmenu-navbar */
 .navbar__menu {
@@ -93,7 +103,7 @@
   text-decoration: none;
   display: block;
   padding: 0 15px;
-  color: var(--white-color);
+  color: rgb(174, 229, 255);
   line-height: 6rem;
   font-size: 2rem;
 }
@@ -102,7 +112,7 @@
   box-shadow: 0 0 5px #04d9ff,
       0 0 5px #04d9ff;
   border-radius: 5px;
-  color: #04d9ff;
+  color: rgb(174, 229, 255);
 }
 
 #iconfb:hover,
@@ -140,7 +150,6 @@
   padding-left: 0px;
   border-bottom: #04d9ff;
   background-color: #12172b;
-  /* right: 10px; */
 }
 
 /* Đổi màu icon thành Neon */

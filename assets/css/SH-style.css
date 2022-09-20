@@ -70,6 +70,16 @@
           0 0 80px var(--SH-color);
   }
 }
+/* ACTIVE PAGE */
+#active {
+  box-shadow: 0 0 5px var(--SH-color),
+      0 0 5px var(--SH-color);
+  border-radius: 5px;
+  color: rgb(250, 192, 255);
+  padding: 22px 10px 25px 10px;
+  text-align: center;
+  width: 15rem;
+}
 
 /* Dropmenu-navbar */
 .navbar__menu {
@@ -94,7 +104,7 @@
   text-decoration: none;
   display: block;
   padding: 0 15px;
-  color: var(--white-color);
+  color: rgb(250, 192, 255);
   line-height: 6rem;
   font-size: 2rem;
 }
@@ -103,7 +113,7 @@
   box-shadow: 0 0 5px var(--SH-color),
       0 0 5px var(--SH-color);
   border-radius: 5px;
-  color: var(--SH-color);
+  color: rgb(250, 192, 255);
 }
 
 #iconfb:hover,

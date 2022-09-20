@@ -69,6 +69,16 @@
           0 0 80px #55fa62;
   }
 }
+/* ACTIVE PAGE */
+#active {
+  box-shadow: 0 0 5px #55fa62,
+      0 0 5px #55fa62;
+  border-radius: 5px;
+  color: rgb(156, 250, 208);
+  padding: 22px 10px 25px 10px;
+  text-align: center;
+  width: 16rem;
+}
 
 /* Dropmenu-navbar */
 .navbar__menu {
@@ -102,7 +112,7 @@
   box-shadow: 0 0 5px #55fa62,
       0 0 5px #55fa62;
   border-radius: 5px;
-  color: #55fa62;
+  color: rgb(156, 250, 208);
 }
 
 #iconfb:hover,
