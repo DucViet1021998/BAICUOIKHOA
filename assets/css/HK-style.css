@@ -106,6 +106,7 @@
 }
 
 #iconfb:hover,
+#iconhome:hover,
 #iconinsta:hover {
   box-shadow: none;
 }
@@ -135,7 +136,7 @@
   display: list-item;
   position: relative;
   z-index: 12;
-  margin: 1.5px;
+  margin: 1px;
   padding-left: 0px;
   border-bottom: #55fa62;
   background-color: #12172b;
@@ -143,6 +144,7 @@
 
 /* Đổi màu icon thành Neon */
 #iconfb,
+#iconhome,
 #iconins {
   animation: changecolor 1.5s infinite alternate;
   color: var(--white-color);
