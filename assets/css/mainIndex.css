@@ -311,10 +311,13 @@
 .img8 {
     grid-column: 7/9;
     grid-row: 27/32;
-    color: #fff;
     border: 3px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to right bottom, #6a5af9, #f62682);
+}
+.img8 p {
+    font-size: 2rem;
+    color: #fff;
 }
 
 .img9 {
@@ -345,11 +348,58 @@
     grid-column: 1/7;
     grid-row: 61/76;
 }
-.img17{
-    grid-column: 7/12;
-    grid-row: 54/68;
-}
 .img11 {
     grid-column: 7/12;
-    grid-row: 68/76;
+    grid-row: 54/64;
 }
+.img17{
+    grid-column: 7/12;
+    grid-row: 64/76;
+}
+
+
+
+/* HOVER TEXT */
+.texthover {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out linear;
+    background-color: #13172C;
+  }
+  
+  .texthover:hover .overlay {
+    opacity: 0.7;
+    cursor: pointer;
+    line-height: 2.5rem;
+    text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 40px #bc13fe,
+            0 0 80px #bc13fe,
+            0 0 90px #bc13fe,
+            0 0 100px #bc13fe,
+            0 0 150px #bc13fe;
+
+  }
+  
+  .overlay .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
