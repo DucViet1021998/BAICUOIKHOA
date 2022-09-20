@@ -106,6 +106,7 @@
 }
 
 #iconfb:hover,
+#iconhome:hover,
 #iconinsta:hover {
   box-shadow: none;
 }
@@ -135,26 +136,19 @@
   display: list-item;
   position: relative;
   z-index: 3;
-  margin-top: 2px;
+  margin: 1px;
   padding-left: 0px;
   border-bottom: #04d9ff;
   background-color: #12172b;
-  right: 10px;
+  /* right: 10px; */
 }
 
 /* Đổi màu icon thành Neon */
 #iconfb,
+#iconhome,
 #iconins {
   animation: changecolor 1.5s infinite alternate;
   color: var(--white-color);
-  text-shadow:
-      0 0 .5rem #fff,
-      0 0 1rem #fff,
-      0 0 1.5rem #fff,
-      0 0 4rem #04d9ff,
-      0 0 5.5rem #04d9ff,
-      0 0 6rem #04d9ff,
-      inset 0 0 9.5rem #04d9ff,
 }
 
 @keyframes changecolor {

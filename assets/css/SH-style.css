@@ -35,10 +35,10 @@
   line-height: 3.5rem;
   box-shadow: 0 0 .2rem var(--white-color),
       0 0 .2rem #fff,
-      0 0 2rem #bb3f7d,
-      0 0 0.8rem #bb3f7d,
-      0 0 2.8rem #ee56a2,
-      inset 0 0 1.3rem #bb3f7d;
+      0 0 2rem  var(--SH-color),
+      0 0 0.8rem var(--SH-color),
+      0 0 2.8rem var(--SH-color),
+      inset 0 0 1.3rem var(--SH-color);
   margin-left: 3rem;
   cursor: pointer;
 }
@@ -49,11 +49,11 @@
           0 0 4px #fff,
           0 0 11px #fff,
           0 0 19px #fff,
-          0 0 40px #ee56a2,
-          0 0 80px #ee56a2,
-          0 0 90px #ee56a2,
-          0 0 100px #ee56a2,
-          0 0 150px #ee56a2;
+          0 0 40px var(--SH-color),
+          0 0 80px var(--SH-color),
+          0 0 90px var(--SH-color),
+          0 0 100px var(--SH-color),
+          0 0 150px var(--SH-color);
 
   }
 
@@ -63,11 +63,11 @@
           0 0 2px #fff,
           0 0 4px #fff,
           0 0 6px #fff,
-          0 0 10px #ee56a2,
-          0 0 45px #ee56a2,
-          0 0 55px #ee56a2,
-          0 0 70px #ee56a2,
-          0 0 80px #ee56a2;
+          0 0 10px var(--SH-color),
+          0 0 45px var(--SH-color),
+          0 0 55px var(--SH-color),
+          0 0 70px var(--SH-color),
+          0 0 80px var(--SH-color);
   }
 }
 
@@ -96,18 +96,18 @@
   padding: 0 15px;
   color: var(--white-color);
   line-height: 6rem;
-  font-size: 3rem
+  font-size: 2rem;
 }
 
 .navbar__menu>ul li a:hover {
-  box-shadow: 0 0 5px #ee56a2,
-      0 0 5px #ee56a2;
+  box-shadow: 0 0 5px var(--SH-color),
+      0 0 5px var(--SH-color);
   border-radius: 5px;
-  color: #ee56a2;
+  color: var(--SH-color);
 }
 
 #iconfb:hover,
-#iconhome,
+#iconhome:hover,
 #iconinsta:hover {
   box-shadow: none;
 }
@@ -132,14 +132,16 @@
 }
 
 .navbar__menu ul ul li {
-  width: 190px;
+  width: 120px;
   float: none;
   display: list-item;
   position: relative;
-  z-index: 1;
-  margin: 0px;
+  z-index: 3;
+  margin-top: 2px;
   padding-left: 0px;
-  border-bottom: #ee56a2;
+  border-bottom: var(--SH-color);
+  background-color: #12172b;
+  right: 10px;
 }
 
 /* Đổi màu icon thành Neon */
@@ -148,14 +150,6 @@
 #iconins {
   animation: changecolor 1.5s infinite alternate;
   color: var(--white-color);
-  text-shadow:
-      0 0 .5rem #fff,
-      0 0 1rem #fff,
-      0 0 1.5rem #fff,
-      0 0 4rem #ee56a2,
-      0 0 5.5rem #ee56a2,
-      0 0 6rem #ee56a2,
-      inset 0 0 9.5rem #ee56a2,
 }
 
 @keyframes changecolor {
@@ -164,11 +158,11 @@
           0 0 2px #fff,
           0 0 3px #fff,
           0 0 6px #fff,
-          0 0 10px #ee56a2,
-          0 0 40px #ee56a2,
-          0 0 40px #ee56a2,
-          0 0 50px #ee56a2,
-          0 0 60px #ee56a2;
+          0 0 10px var(--SH-color),
+          0 0 40px var(--SH-color),
+          0 0 40px var(--SH-color),
+          0 0 50px var(--SH-color),
+          0 0 60px var(--SH-color);
 
   }
 
@@ -177,11 +171,11 @@
           0 0 1px #fff,
           0 0 2px #fff,
           0 0 3px #fff,
-          0 0 5px #ee56a2,
-          0 0 25px #ee56a2,
-          0 0 35px #ee56a2,
-          0 0 40px #ee56a2,
-          0 0 50px #ee56a2;
+          0 0 5px var(--SH-color),
+          0 0 25px var(--SH-color),
+          0 0 35px var(--SH-color),
+          0 0 40px var(--SH-color),
+          0 0 50px var(--SH-color);
   }
 }
 /* END OF HEADER */

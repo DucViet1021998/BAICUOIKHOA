@@ -91,7 +91,7 @@
     padding: 0 15px;
     color: var(--white-color);
     line-height: 6rem;
-    font-size: 3rem
+    font-size: 2rem;
 }
 
 #about {
@@ -109,6 +109,7 @@
 }
 
 #iconfb:hover,
+#iconhome:hover,
 #iconinsta:hover {
     box-shadow: none;
 }
@@ -134,11 +135,11 @@
 }
 
 .navbar__menu ul ul li {
-    width: 190px;
+    width: 120px;
     float: none;
     display: list-item;
     position: relative;
-    z-index: 1;
+    z-index: 3;
     margin: 0px;
     padding-left: 0px;
     border-bottom: #d400ff;
@@ -146,17 +147,10 @@
 
 /* Đổi màu icon thành Neon */
 #iconfb,
+#iconhome,
 #iconins {
     animation: changecolor 1.5s infinite alternate;
     color: var(--white-color);
-    text-shadow:
-        0 0 .5rem #fff,
-        0 0 1rem #fff,
-        0 0 1.5rem #fff,
-        0 0 4rem #d400ff,
-        0 0 5.5rem #d400ff,
-        0 0 6rem #d400ff,
-        inset 0 0 9.5rem #d400ff,
 }
 
 @keyframes changecolor {
@@ -245,5 +239,8 @@ h1 {
 
 .img8 {
     grid-row: 6/7;
+}
+.img9 {
+    grid-row: 7/8;
 }
 /* END OF BODY */
